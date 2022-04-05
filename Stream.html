@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UTS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body
+{
+    background-color: gainsboro;
+}
+ 
+.badan-utama
+{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header
+{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navbar {
+  width: 100%;
+  background-color:darkgoldenrod;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:brown;
+}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.polaroid.video {
+  max-width: 100%;
+  height: auto;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+p {
+  text-indent: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  
+  border: px solid black;
+}
+.banner
+{
+    margin-bottom: 15px;
+}
+ 
+.banner img
+{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3
+{
+    background-color:darkgoldenrod;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+.menu-kiri
+{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah
+{
+    width: 530px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: crimson;
+    margin-bottom: 0;
+}
+ 
+ 
+ 
+ 
+.menu-kanan
+{
+    width: 250px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-kiri, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+footer
+{
+    clear: both;
+    background-color:brown;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+ 
+.menu-artikel ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-artikel ul li a:hover
+{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+ 
+ 
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .badan-utama
+    {
+        width: 100%;
+    }
+ 
+    .menu-kiri
+    {
+        width: 25%;
+    }
+ 
+    .menu-tengah
+    {
+        width: 68%;
+        float: right;
+    }
+ 
+    .menu-kanan
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
+ 
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    header h2, header p
+    {
+        text-align: center;
+    }
+ 
+    .menu-kiri, .menu-kanan, .menu-tengah
+    {
+        float: none;
+        width: 100%;
+    }
+ 
+    .navigasi li
+    {
+        float: none;
+    }
+}
+</style>
+</head>
+<body>
+     
+    <div class="badan-utama">
+        
+        <header>
+            <h2>Rumah Batik Rolla Jember</h2>
+            <p>Batik Khas Kota Jember</p>
+        </header>
+ 
+    <div class="navbar">
+            <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+            <a href="Product.html"><i class="fa fa-fw fa-download"></i> Download List Jualan</a>
+            <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+            <a href="Stream.html"><i class="fa fa-video-camera"></i> Stream</a>
+            <a href="Picture.html"><i class="fa fa-fw fa-picture-o"></i> Picture</a> 
+            <a href="News.html"><i class="fa fa-fw fa-newspaper-o"></i> News</a> 
+    </div>
+ 
+    <div class="banner">
+        <img src="1.jpg">
+    </div>
+ 
+    <div class="menu-kiri">
+        <div class="kotak">
+            <h3>Info</h3>
+                <table>
+  
+                    <tr>
+                        <td>Nama UMKM</td>
+                        <td>:</td>
+                        <td>Batik Rolla Jember</td>
+                    </tr>
+                    <tr>
+                        <td>Hasil Produksi </td>
+                        <td>:</td>
+                        <td>Batik</td>
+                    </tr>
+                    <tr>
+                        <td>Pemilik </td>
+                        <td>:</td>
+                        <td>Iriane Chairini Megawati</td>
+                      </tr>
+                      <tr>
+                        <td>Alamat </td>
+                        <td>:</td>
+                        <td>Jl. Mawar No.75, Krajan, Jemberlor, Kec. Patrang, 
+                            Kabupaten Jember, Jawa Timur 68118</td>
+                      </tr>
+                </table>
+                
+        </div>
+    </div>
+ 
+        <div class="menu-tengah">
+            <div class="polaroid">
+                <video width="100%" controls>
+                    <source src="Rumah Batik Rolla Gelar Ekonomi Kreatif dan UMKM.mp4" type="video/mp4">
+                    <source src="Rumah Batik Rolla Gelar Ekonomi Kreatif dan UMKM.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                  </video>
+                <div class="container">
+                    <p><b>Rumah Batik Rolla Gelar Ekonomi Kreatif dan UMKM</b></p>
+                    <p>Sebagai bentuk fasilitas bagi masyarakat Jember untuk memperkenalkan produk usahanya, 
+                    Rumah Batik Rolla Batik Jember menggandeng Universitas Jember sebagai partner menggelar 
+                    Produk Umkm yang di buka langsung oleh wakil Bupati Jember Muqit Arief, selain untuk 
+                    memperkenalkan produk-produk lokal Jember, kegiatan ini juga untuk memberikan edukasi 
+                    mengenai Umkm kepada pelaku usaha mikro.
+                    </p>
+                </div>
+            </div>
+
+            <div class="polaroid">
+                <video width="100%" controls>
+                    <source src="Batik Rolla Gelar Lomba Membatik.mp4" type="video/mp4">
+                    <source src="Batik Rolla Gelar Lomba Membatik.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                  </video>
+                <div class="container">
+                    <p><b>Batik Rolla Gelar Lomba Membatik</b></p>
+                    <p>Dalama rangka memperingati Hari Batik Nasional, Batik Rolla bersama 
+                    Forum Umkm dan Bantuan Hukum Jember Baru Jember Bersatu mengadakan 
+                    lomba membatik yang di ikuti kurang lebih sekitar 3500 peserta.
+                    </p>
+                </div>
+            </div>
+
+            <div class="polaroid">
+                <audio controls>
+                    <source src="Rumah-Batik-Rolla-Gelar-Ekonomi-Kreatif-dan-UMKM.ogg" type="audio/ogg">
+                    <source src="Rumah-Batik-Rolla-Gelar-Ekonomi-Kreatif-dan-UMKM.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+            </div>
+        </div>
+ 
+        <div class="menu-kanan">
+            <div class="kotak">
+                <h3>Jadwal Buka</h3>
+                <img src="4.jpg" >
+ 
+                <h4 align="center">Jadwal Buka</h4>
+                <center>
+                    <p>Senin-Minggu 08.00 WIB - 22.00 WIB</p>
+                </center>
+            </div>
+        </div>
+ 
+        <footer>
+             Eriska Elok Ulvandari Ayuningwangi /18083000117 /5H
+        </footer>
+ 
+    </div>
+ 
+</body>
+</html>
